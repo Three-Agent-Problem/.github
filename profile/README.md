@@ -1,4 +1,13 @@
-# Three Agent Problem
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/mark-dark.svg">
+    <img src="assets/mark-light.svg" width="96" height="96" alt="">
+  </picture>
+</p>
+
+<h1 align="center">Three Agent Problem</h1>
+
+<p align="center">Three bodies, one figure eight: agents that keep handing work to each other without colliding.</p>
 
 ## Production infrastructure for A2A agents
 
