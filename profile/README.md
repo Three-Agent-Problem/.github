@@ -17,6 +17,7 @@
 |---|---|
 | [**Lagrange**](https://github.com/three-agent-problem/lagrange) | Operator console with a task tree across agents and time in state. An inbox that renders structured-input requests as forms and resumes the task. A credential broker for `AUTH_REQUIRED` (with a [Nango](https://nango.dev) adapter). A push observer for any [a2a-go](https://github.com/a2aproject/a2a-go) agent. |
 | [**registry**](https://github.com/three-agent-problem/registry) | `card-lint`, which grades an agent card against A2A 1.0, and a registry that indexes conformant agents by skill and checks they are alive. |
+| [**Halo**](https://github.com/three-agent-problem/halo) | A team of Claude Code agents that work together over A2A: an opus lead, haiku, sonnet and opus workers in their own git worktrees, and a reviewer, each with its own address on Lagrange. A lazygit-style TUI shows every message live. `brew install three-agent-problem/tap/halo` |
 | [**examples**](https://github.com/three-agent-problem/examples) | Runnable multi-agent apps. Start with **procurement**: quotes, approval, order with push, calendar connection, purchase order. |
 
 Everything is Apache-2.0 and written in Go on the official A2A SDK. Early days, so expect things to change.
